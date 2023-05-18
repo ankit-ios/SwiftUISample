@@ -14,6 +14,8 @@
 		AD568C812A0CECA8000246B2 /* SwiftUISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD568C802A0CECA8000246B2 /* SwiftUISampleTests.swift */; };
 		AD568C8B2A0CECA8000246B2 /* SwiftUISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD568C8A2A0CECA8000246B2 /* SwiftUISampleUITests.swift */; };
 		AD568C8D2A0CECA8000246B2 /* SwiftUISampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD568C8C2A0CECA8000246B2 /* SwiftUISampleUITestsLaunchTests.swift */; };
+		AD568C9A2A139942000246B2 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD568C992A139942000246B2 /* ListView.swift */; };
+		AD665E9E2A14F6A60020E13E /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD665E9D2A14F6A60020E13E /* ListDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		AD568C862A0CECA8000246B2 /* SwiftUISampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD568C8A2A0CECA8000246B2 /* SwiftUISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleUITests.swift; sourceTree = "<group>"; };
 		AD568C8C2A0CECA8000246B2 /* SwiftUISampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD568C992A139942000246B2 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		AD665E9D2A14F6A60020E13E /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				AD568C6F2A0CECA5000246B2 /* SwiftUISampleApp.swift */,
 				AD568C712A0CECA5000246B2 /* ContentView.swift */,
+				AD568C992A139942000246B2 /* ListView.swift */,
+				AD665E9D2A14F6A60020E13E /* ListDetailView.swift */,
 				AD568C732A0CECA8000246B2 /* Assets.xcassets */,
 				AD568C752A0CECA8000246B2 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD568C722A0CECA5000246B2 /* ContentView.swift in Sources */,
+				AD665E9E2A14F6A60020E13E /* ListDetailView.swift in Sources */,
 				AD568C702A0CECA5000246B2 /* SwiftUISampleApp.swift in Sources */,
+				AD568C9A2A139942000246B2 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
